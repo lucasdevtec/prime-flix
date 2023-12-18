@@ -43,7 +43,7 @@ Develop my experience with React, improving my knowledge and learning new featur
 - Open the folder in the terminal.
 - Create a account in TMDB e cath your key.
 - Create keyApi.js.
-- preencha com o codigo abaixo subistituindo **Your Key** por sua chave.
+- Enter with the code below replacing **Your Key** with your key.
 
 ```JavaScript
 export const api_Key = "Your Key";
@@ -55,4 +55,3 @@ export const api_Key = "Your Key";
 ## Author
 
 - LinkedIn - [Lucas-Gabriel](https://www.linkedin.com/in/yami-kagayaki/)
-- Frontend Mentor - [Yami-Kagayaki](https://www.frontendmentor.io/profile/Yami-Kagayaki)
