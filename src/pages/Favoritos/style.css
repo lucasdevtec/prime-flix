@@ -1,0 +1,41 @@
+.FavFilmes {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.FavFilmes h1 {
+  margin-top: 14px;
+  text-align: center;
+}
+
+.FavFilmes h3 {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.FavFilmes ul {
+  width: 720px;
+}
+
+.FavFilmes li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.FavFilmes div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FavFilmes div a {
+  text-decoration: none;
+  color: #116feb;
+  margin-right: 14px;
+}
