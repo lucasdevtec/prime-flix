@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import api from "../../services/api";
-import { api_Key } from "../../../keyApi";
 import { Link } from "react-router-dom";
 import "./style.css";
 
@@ -13,7 +12,7 @@ export default function Home() {
     async function loadFilmes() {
       const response = await api.get("movie/now_playing", {
         params: {
-          api_key: api_Key,
+          api_key: import.meta.env.VITE_API_KEY,
           language: "pt-BR",
           page: 1,
         },

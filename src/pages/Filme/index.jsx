@@ -1,7 +1,6 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import api from "../../services/api";
-import { api_Key } from "../../../keyApi";
 import "./style.css";
 import { toast } from "react-toastify";
 
@@ -16,7 +15,7 @@ export default function Filme() {
       await api
         .get(`movie/${id}`, {
           params: {
-            api_key: api_Key,
+            api_key: import.meta.env.VITE_API_KEY,
             language: "pt-BR",
           },
         })
@@ -29,6 +28,8 @@ export default function Filme() {
           return;
         });
     }
+
+    console.log(import.meta.env.VITE_SOME_KEY);
 
     loadFilme();
   }, [id, navigate]);
