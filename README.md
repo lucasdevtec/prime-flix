@@ -42,11 +42,11 @@ Develop my experience with React, improving my knowledge and learning new featur
 - Download the repository.
 - Open the folder in the terminal.
 - Create a account in TMDB e cath your key.
-- Create keyApi.js.
+- Create .env.
 - Enter with the code below replacing **Your Key** with your key.
 
 ```JavaScript
-export const api_Key = "Your Key";
+VITE_API_KEY="Your Key";
 ```
 
 - Run "npm install" and then "npm run dev".
