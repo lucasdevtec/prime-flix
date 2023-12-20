@@ -1,6 +1,6 @@
 # Prime-Flix
 
-This is a solution for
+This is a project created to deepen my knowledge of API consumption.
 
 ## Table of contents
 
@@ -35,7 +35,6 @@ Develop my experience with React, improving my knowledge and learning new featur
 - [Axios](https://axios-http.com/ptbr/docs/intro) Axios is a promise-based HTTP client for node.js and the browser.
 - [Chakra-ui](https://chakra-ui.com/) Is a library of design system-based React components that offer a host of out-of-the-box features and functionality, including styles, animations, modals, and other common components.
 - [TMDB-API](https://www.themoviedb.org/) API of the to list movies and series information.
-- [react-elastic-carousel](https://sag1v.github.io/react-elastic-carousel/) Is a library that assists in creating image carousels.
 
 ### Guide
 
